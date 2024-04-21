@@ -47,7 +47,7 @@ function ConvertHandler() {
       case "mi":
         return "mi";
       case "l":
-        return "l";
+        return "L";
       case "kg":
         return "kg";
       default:
@@ -61,7 +61,7 @@ function ConvertHandler() {
       case "km":
         return "mi";
       case "gal":
-        return "l";
+        return "L";
       case "lbs":
         return "kg";
       case "mi":
@@ -89,7 +89,7 @@ function ConvertHandler() {
       case "l":
         return "liters";
       case "kg":
-        return "kglograms";
+        return "kilograms";
       default:
         return "don't know";
     }
